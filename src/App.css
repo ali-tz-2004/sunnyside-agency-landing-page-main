@@ -48,7 +48,6 @@
 .full-page-trans-stand {
   display: flex;
   color: var(--color-text-dark-blue);
-  margin-bottom: -3px;
 }
 .white-page-trans-stand {
   width: 50vw;
@@ -116,7 +115,7 @@
   width: 50vw;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 565px;
+  height: 80vh;
 }
 .page-graphic {
   color: var(--color-page-graphic);
