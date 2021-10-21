@@ -5,6 +5,8 @@ import Transform from "./FullPage/Transform";
 import StandOut from "./FullPage/StandOut";
 import GraphicAndPhotography from "./FullPage/GraphicAndPhotography";
 import Clients from "./FullPage/Clients";
+import Gallery from "./FullPage/Gallery";
+import Tfoot from "./FullPage/Tfoot";
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
       <StandOut />
       <GraphicAndPhotography />
       <Clients />
+      <Gallery />
+      <Tfoot />
     </Router>
   );
 };

@@ -22,3 +22,14 @@ export const ClientsInfo = [
     skill: `Business Owner`,
   },
 ];
+export const Icons = [
+  {id:1, img:`${img.facebook}`},
+  {id:2, img:`${img.instagram}`},
+  {id:3, img:`${img.twitter}`},
+  {id:4, img:`${img.pinterest}`},
+]
+export const LinksTfoot = [
+  {id:1, text:`About`},
+  {id:2, text:`Services`},
+  {id:3, text:`Projects`},
+]
