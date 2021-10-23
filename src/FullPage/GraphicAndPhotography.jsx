@@ -2,7 +2,7 @@ import * as img from "../images/export";
 
 const GraphicAndPhotography = () => {
   return (
-    <div className="page-graphic-and-photography">
+    <section className="page-graphic-and-photography">
       <div
         className="page-graphic"
         style={{ backgroundImage: `url(${img.graphic_design})` }}
@@ -28,7 +28,7 @@ const GraphicAndPhotography = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default GraphicAndPhotography;

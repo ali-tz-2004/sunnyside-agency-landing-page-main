@@ -3,7 +3,7 @@ import * as img from "../images/export";
 
 const StandOut = () => {
   return (
-    <div className="full-page-trans-stand full-page-stand">
+    <section className="full-page-trans-stand full-page-stand">
       <div className="color-page-trans-stand red-page">
         <img src={img.image_stand_out} alt="img-standOut" />
       </div>
@@ -21,7 +21,7 @@ const StandOut = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

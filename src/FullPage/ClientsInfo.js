@@ -1,3 +1,7 @@
+import IconFacebook from "../components/Icons/IconFacebook";
+import Instagram from "../components/Icons/IconInstagram";
+import IconPinterest from "../components/Icons/IconPinterest";
+import IconTwitter from "../components/Icons/IconTwitter";
 import * as img from "../images/export";
 export const ClientsInfo = [
   {
@@ -23,10 +27,10 @@ export const ClientsInfo = [
   },
 ];
 export const Icons = [
-  {id:1, img:`${img.facebook}`},
-  {id:2, img:`${img.instagram}`},
-  {id:3, img:`${img.twitter}`},
-  {id:4, img:`${img.pinterest}`},
+  {id:1, img:<IconFacebook/>},
+  {id:2, img:<Instagram/>},
+  {id:3, img:<IconTwitter/>},
+  {id:4, img:<IconPinterest/>},
 ]
 export const LinksTfoot = [
   {id:1, text:`About`},

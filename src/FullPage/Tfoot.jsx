@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Tfoot = () => {
   return (
-    <div className="tfoot">
+    <tfoot className="tfoot">
       <div className="tfoot-title">
         <h2>sunnyside</h2>
       </div>
@@ -12,12 +12,8 @@ const Tfoot = () => {
           <Link>{x.text}</Link>
         ))}
       </div>
-      <div className="tfoot-icons">
-        {Icons.map((x) => (
-          <img src={x.img} alt="" />
-        ))}
-      </div>
-    </div>
+      <div className="tfoot-icons">{Icons.map((x) => x.img)}</div>
+    </tfoot>
   );
 };
 export default Tfoot;

@@ -3,7 +3,7 @@ import * as img from "../images/export";
 
 const Transform = () => {
   return (
-    <div className="full-page-trans-stand full-page-trans">
+    <section className="full-page-trans-stand full-page-trans">
       <div className="white-page-trans-stand white-page-trans">
         <div className="white-pg-trans white-pg">
           <h2>Transform your brand</h2>
@@ -21,7 +21,7 @@ const Transform = () => {
       <div className="color-page-trans-stand yellow-page">
         <img src={img.transform} alt="img-transform" />
       </div>
-    </div>
+    </section>
   );
 };
 

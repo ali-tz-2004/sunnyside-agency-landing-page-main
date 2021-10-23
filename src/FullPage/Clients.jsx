@@ -2,7 +2,7 @@ import { ClientsInfo } from "./ClientsInfo";
 
 const Clients = () => {
   return (
-    <div className="full-pages-client">
+    <section className="full-pages-client">
       <div className="client-testimonials">
         <h2>CLIENT TESTIMONIALS</h2>
       </div>
@@ -24,7 +24,7 @@ const Clients = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

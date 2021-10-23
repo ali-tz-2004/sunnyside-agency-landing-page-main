@@ -196,11 +196,12 @@
   color: var(--color-page-graphic);
   text-align: center;
   padding: 30px;
+  display: block;
 }
 .tfoot-title h2 {
-  font-family: "Barlow";
+  font-family: "Barlow", sans-serif;
   font-size: 1.5rem;
-  font-weight: 100;
+  font-weight: 700;
 }
 .tfoot-links {
   padding: 20px 0;
@@ -210,20 +211,15 @@
   text-decoration: none;
   margin: 0 25px;
 }
-.tfoot-icons {
-  display: flex;
-  justify-content: center;
-  padding: 30px 0;
-}
-.tfoot-icons img {
-  margin: 0 10px;
-  cursor: pointer;
-  /* display: none; */
-}
 
 .tfoot-links a:hover {
   color: white;
 }
-.tfoot-icons svg path:hover {
-  fill: blue;
+.icon {
+  fill: #2c7566;
+  cursor: pointer;
+  margin: 20px 15px;
+}
+.icon:hover {
+  fill: white;
 }

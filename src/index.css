@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,700;1,600&display=swap");
 
 :root {
   --color-text-dark-blue: #232f3d;
@@ -18,10 +19,11 @@
 
 body {
   font-family: "Barlow", sans-serif;
-  /* font-family: "Fraunces", serif; */
 }
+
 h2 {
-  font-family: "Fraunces", serif;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
 }
 
 img {

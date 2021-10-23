@@ -7,7 +7,7 @@ const Header = () => {
     { id: 4, name: "Contact" },
   ];
   return (
-    <div
+    <section
       className="page-blue"
       style={{ backgroundImage: `url(${img.header})` }}
     >
@@ -27,7 +27,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default Header;
