@@ -1,8 +1,8 @@
-import IconFacebook from "../components/Icons/IconFacebook";
-import Instagram from "../components/Icons/IconInstagram";
-import IconPinterest from "../components/Icons/IconPinterest";
-import IconTwitter from "../components/Icons/IconTwitter";
-import * as img from "../images/export";
+import IconFacebook from "../Icons/IconFacebook";
+import Instagram from "../Icons/IconInstagram";
+import IconPinterest from "../Icons/IconPinterest";
+import IconTwitter from "../Icons/IconTwitter";
+import * as img from "../../images/export";
 export const ClientsInfo = [
   {
     id: 1,

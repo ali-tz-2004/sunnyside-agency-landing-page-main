@@ -7,12 +7,12 @@ const Header = () => {
     { id: 4, name: "Contact" },
   ];
   return (
-    <section
-      className="page-blue"
-      style={{ backgroundImage: `url(${img.header})` }}
-    >
+    <section className="page-blue">
       <nav className="navbar">
         <h2>sunnyside</h2>
+        <div className="hamburger">
+          <img src={img.hamburger} alt="" />
+        </div>
         <ul className="ul-navbar">
           {li.map((x) => (
             <li key={x.id}>{x.name}</li>

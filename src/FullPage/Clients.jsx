@@ -1,4 +1,4 @@
-import { ClientsInfo } from "./ClientsInfo";
+import { ClientsInfo } from "../components/client/ClientsInfo";
 
 const Clients = () => {
   return (

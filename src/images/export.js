@@ -23,13 +23,13 @@ export {default as transform} from "./desktop/image-transform.jpg";
 
 
 //images mobile
-// export {default as gallery_cone2} from "./mobile/image-gallery-cone.jpg";
-// export {default as image_gallery_milkbottles2} from "./mobile/image-gallery-milkbottles.jpg";
-// export {default as gallery_orange2} from "./mobile/image-gallery-orange.jpg";
-// export {default as gallery_sugarcubes2} from "./mobile/image-gallery-sugarcubes.jpg";
-// export {default as graphic_design2} from "./mobile/image-graphic-design.jpg";
-// export {default as header2} from "./mobile/image-header.jpg";
-// export {default as photography2} from "./mobile/image-photography.jpg";
-// export {default as image_stand_out2} from "./mobile/image-stand-out.jpg";
-// export {default as transform2} from "./mobile/image-transform.jpg";
+export {default as gallery_cone2} from "./mobile/image-gallery-cone.jpg";
+export {default as image_gallery_milkbottles2} from "./mobile/image-gallery-milkbottles.jpg";
+export {default as gallery_orange2} from "./mobile/image-gallery-orange.jpg";
+export {default as gallery_sugarcubes2} from "./mobile/image-gallery-sugarcubes.jpg";
+export {default as graphic_design2} from "./mobile/image-graphic-design.jpg";
+export {default as header2} from "./mobile/image-header.jpg";
+export {default as photography2} from "./mobile/image-photography.jpg";
+export {default as image_stand_out2} from "./mobile/image-stand-out.jpg";
+export {default as transform2} from "./mobile/image-transform.jpg";
 

@@ -1,4 +1,4 @@
-import { Icons, LinksTfoot } from "./ClientsInfo";
+import { Icons, LinksTfoot } from "../components/client/ClientsInfo";
 import { Link } from "react-router-dom";
 
 const Tfoot = () => {

@@ -1,10 +1,14 @@
 /* page 1 */
 .page-blue {
   color: white;
+  background-image: url("./images/desktop/image-header.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
   height: 100vh;
+}
+.img-page-blue {
+  display: none;
 }
 .navbar {
   display: flex;
@@ -27,6 +31,9 @@
   font-weight: bold;
   background-color: #6eceff;
 }
+.hamburger {
+  display: none;
+}
 .body-page-blue {
   display: flex;
   flex-direction: column;
@@ -34,7 +41,7 @@
   font-family: "Fraunces", serif;
 }
 .title-page-blue {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   padding: 20px 0 50px 0;
 }
 .img-blue-page {
@@ -222,4 +229,47 @@
 }
 .icon:hover {
   fill: white;
+}
+
+@media (max-width: 480px) {
+  .page-blue {
+    height: calc(100vh - 300px);
+  }
+  .ul-navbar {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .title-page-blue {
+    text-align: center;
+  }
+  .full-page-trans-stand {
+    flex-direction: column-reverse;
+  }
+  .color-page-trans-stand {
+    width: 100vw;
+  }
+  .white-page-trans-stand {
+    width: 100vw;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .full-page-stand {
+    flex-direction: column;
+  }
+  .page-graphic-and-photography,
+  .page-photography {
+    flex-direction: column;
+  }
+  .page-graphic,
+  .page-photography {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .pages-client {
+    flex-direction: column;
+  }
 }
