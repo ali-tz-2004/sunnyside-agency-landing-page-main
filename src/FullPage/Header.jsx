@@ -6,12 +6,14 @@ const Header = () => {
     { id: 3, name: "Projects" },
     { id: 4, name: "Contact" },
   ];
+  const showLi = false;
+  const humburger = () => {};
   return (
     <section className="page-blue">
       <nav className="navbar">
         <h2>sunnyside</h2>
-        <div className="hamburger">
-          <img src={img.hamburger} alt="" />
+        <div className="hamburger" onClick={humburger}>
+          <img src={img.hamburger} alt="humburger" />
         </div>
         <ul className="ul-navbar">
           {li.map((x) => (
