@@ -1,4 +1,5 @@
 import * as img from "../images/export";
+import { useState } from "react";
 const Header = () => {
   let li = [
     { id: 1, name: "About" },
@@ -6,7 +7,7 @@ const Header = () => {
     { id: 3, name: "Projects" },
     { id: 4, name: "Contact" },
   ];
-  const showLi = false;
+  let [showLi, setShowLi] = useState({});
   const humburger = () => {};
   return (
     <section className="page-blue">
@@ -24,9 +25,7 @@ const Header = () => {
       <div className="body-page-blue">
         <h2 className="title-page-blue">WE ARE CREATIVES</h2>
         <div className="img-blue-page">
-          <div className="img-arrow_down">
-            <img src={img.arrow_down} alt="arrow down" />
-          </div>
+          <img src={img.arrow_down} alt="arrow down" />
         </div>
       </div>
     </section>

@@ -42,7 +42,7 @@
 }
 .title-page-blue {
   font-size: 2.5rem;
-  padding: 20px 0 50px 0;
+  padding: 30px 0;
 }
 .img-blue-page {
   display: flex;
@@ -234,17 +234,54 @@
 @media (max-width: 480px) {
   .page-blue {
     background-image: url("./images/mobile/image-header.jpg");
-    height: calc(100vh - 300px);
+    height: auto;
+    position: relative;
+  }
+  .img-blue-page {
+    margin-bottom: 70px;
   }
   .ul-navbar {
-    display: none;
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-color: #fffbf8;
+    color: #797580;
+    top: 70px;
+    left: 20px;
+    right: 20px;
+    z-index: 3;
+    padding: 20px 0;
+  }
+  .ul-navbar li {
+    padding: 20px 0;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+  }
+  .navbar:hover {
+    color: #211f06;
+    background-color: #fbd601;
   }
   .hamburger {
-    display: block;
+    display: flex;
+  }
+  .page-blue::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-bottom: 20px solid #fffbf8;
+    transform: rotate(135deg);
+    top: 69px;
+    right: 0;
   }
   .title-page-blue {
     text-align: center;
-    padding: 0 0 20px 0;
+    padding: 30px 0 20px 0;
   }
   .full-page-trans-stand {
     flex-direction: column-reverse;
