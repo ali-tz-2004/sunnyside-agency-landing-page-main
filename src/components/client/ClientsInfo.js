@@ -37,3 +37,10 @@ export const LinksTfoot = [
   {id:2, text:`Services`},
   {id:3, text:`Projects`},
 ]
+export const Gollery = [
+  {id:1, img:img.image_gallery_milkbottles_mob},
+  {id:2, img:img.gallery_orange_mob},
+  {id:3, img:img.gallery_cone_mob},
+  {id:4, img:img.gallery_sugarcubes_mob},
+
+]

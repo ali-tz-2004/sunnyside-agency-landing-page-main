@@ -233,6 +233,7 @@
 
 @media (max-width: 480px) {
   .page-blue {
+    background-image: url("./images/mobile/image-header.jpg");
     height: calc(100vh - 300px);
   }
   .ul-navbar {
@@ -243,12 +244,22 @@
   }
   .title-page-blue {
     text-align: center;
+    padding: 0 0 20px 0;
   }
   .full-page-trans-stand {
     flex-direction: column-reverse;
   }
   .color-page-trans-stand {
     width: 100vw;
+  }
+  .white-pg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .white-pg p {
+    width: 290px;
+    text-align: center;
   }
   .white-page-trans-stand {
     width: 100vw;
@@ -271,5 +282,18 @@
   }
   .pages-client {
     flex-direction: column;
+  }
+  .page-client {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gallerys {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .gallery {
+    width: 50vw;
   }
 }
