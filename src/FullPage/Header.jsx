@@ -7,8 +7,10 @@ const Header = () => {
     { id: 3, name: "Projects" },
     { id: 4, name: "Contact" },
   ];
-  let [showLi, setShowLi] = useState({});
-  const humburger = () => {};
+  let [showHamburger, setShowHamburger] = useState(false);
+  const humburger = () => {
+    setShowHamburger(!showHamburger);
+  };
   return (
     <section className="page-blue">
       <nav className="navbar">
@@ -16,11 +18,18 @@ const Header = () => {
         <div className="hamburger" onClick={humburger}>
           <img src={img.hamburger} alt="humburger" />
         </div>
-        <ul className="ul-navbar">
+        <ul className="ul-navbar ul-desk">
           {li.map((x) => (
             <li key={x.id}>{x.name}</li>
           ))}
         </ul>
+        {showHamburger ? (
+          <ul className="ul-navbar">
+            {li.map((x) => (
+              <li key={x.id}>{x.name}</li>
+            ))}
+          </ul>
+        ) : null}
       </nav>
       <div className="body-page-blue">
         <h2 className="title-page-blue">WE ARE CREATIVES</h2>
